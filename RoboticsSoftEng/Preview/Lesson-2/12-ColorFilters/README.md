@@ -1,20 +1,19 @@
-# 16. Challenge: Planning
+# 16. Challenge: Color Filters
 
-In the diagram above what functions can we call to set the robot on a path towards the door?
+### Filtering visual data, like red doors, is a major task for roboticists. The following program is designed to find the door in the photo below..
 
-The robot is starting at location (0,0) with orientation (S). The tuple for this is (0,0,S).
+![ch12](challenge-03c-t2.jpg "Challenge12")
 
-## Write the corresponding python functions below.
+In this programming quiz we've given you code to filter for the red door. All you have to do is run the code and look at the output.
 
-Note: For the robot to follow the yellow path it must:
-* Turn East
-* Walk forward 15 feet
-* Turn North
-* Walk forward 5 feet
-* Turn East
+In the output you'll see:
 
-For the robot to follow the purple path it must:
-1. Turn North
-2. Walk forward 5 feet
-3. Turn East
-4. Walk forward 15 feet
+* the original image
+* the filter for red
+* the filtered image
+
+If you like, change the upper and lower range values to change the filter.
+
+The code is executed when you select the "Test Run" button.
+
+When you submit the code, all answers are correct.
