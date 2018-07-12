@@ -1,3 +1,9 @@
+"""
+Iterate through all files in selected directory and pretend to change it's name.
+Instead prints current file name and updated name but don't rename any files.
+Removes digits and underscore from file name and adds a single underscore followed by a file counter.
+"""
+
 import os
 
 
