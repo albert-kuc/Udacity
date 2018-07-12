@@ -1,6 +1,9 @@
 import os
 
-file_location = os.listdir("C:\\Users\\Mikele\\Desktop\\IMG")
 
-for file in file_location:
-    print(file)
+def rename_files():
+    file_location = r"C:\Users\Mikele\Desktop\IMG - Kopia"
+
+    """ List all files from selected directory """
+    file_list = os.listdir(file_location)
+    # print(file_list)
